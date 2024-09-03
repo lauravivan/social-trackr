@@ -1,0 +1,24 @@
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: $dark;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $light;
+}
+
+:root {
+  font-family: $font-inter;
+  background-color: $dark;
+  color: $light;
+  row-gap: 100px;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+  padding-top: 50px;
+  padding-bottom: 6px;
+}

@@ -1,0 +1,19 @@
+.card {
+    padding: 15px;
+    background-color: $light;
+    border-radius: 10px;
+    color: $dark;
+    display: flex;
+    column-gap: 20px;
+    
+    &__profile-container {
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+
+        &--follow-numbers {
+            
+        }
+    }
+}
