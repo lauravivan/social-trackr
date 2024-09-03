@@ -11,6 +11,9 @@
     "sass": "sass ./src/assets/sass/main.scss:./src/assets/css/main.css --watch"
   },
   "dependencies": {
+    "@octokit/core": "^6.1.2",
+    "@octokit/types": "^13.5.0",
+    "octokit": "^4.0.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "sass": "^1.77.6"

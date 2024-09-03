@@ -1,10 +1,11 @@
-import { Header, Main } from "./components";
+import { Header, Main, Footer } from "./components";
 
 function App() {
   return (
     <>
       <Header>CheckGhFollowers</Header>
       <Main />
+      <Footer />
     </>
   );
 }
