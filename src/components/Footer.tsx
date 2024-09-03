@@ -1,3 +1,3 @@
 export function Footer() {
-  return <footer>created by LauraVivan🐼</footer>;
+  return <footer className="footer">created by LauraVivan🐼</footer>;
 }
