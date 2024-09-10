@@ -1,24 +1,28 @@
 ::-webkit-scrollbar {
   width: 6px;
-  background-color: $dark;
+  background-color: $white;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: $light;
 }
 
-:root {
-  font-family: $font-inter;
-  background-color: $dark;
-  color: $light;
-  row-gap: 100px;
-  min-height: 100vh;
+* {
+  box-sizing: border-box;
 }
 
+:root {
+  font-family: $font-inter;
+  background-color: $white;
+  color: $dark;
+  font-size: $fs-small;
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+}
+
+body,
 #root {
-  display: flex;
-  flex-direction: column;
-  row-gap: 100px;
-  padding-top: 50px;
-  padding-bottom: 6px;
+  height: 100%;
+  width: 100%;
 }

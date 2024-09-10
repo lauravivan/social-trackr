@@ -1,12 +1,8 @@
-import { Header, Main, Footer } from "./components";
+import { Homepage } from "./pages/Homepage";
 
 function App() {
   return (
-    <>
-      <Header>CheckGhFollowers</Header>
-      <Main />
-      <Footer />
-    </>
+    <Homepage/>
   );
 }
 
